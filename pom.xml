@@ -2,9 +2,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>dev.pilati.itembroadcast</groupId>
     <artifactId>ItemBroadcast</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
 
     <build>
+        <finalName>${project.artifactId}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

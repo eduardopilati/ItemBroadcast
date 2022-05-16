@@ -9,6 +9,6 @@ commands:
       usage: /<command>
       description: Send a item to all players online
 permissions:
-   ib.send:
-      description: Give acess to ib command
+   itembroadcast.send:
+      description: Give acess to itembroadcast command
       default: op 

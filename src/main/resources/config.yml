@@ -1,0 +1,16 @@
+
+messages:
+   noPermission: "&4[ItemBroadcast] No permission {permission} to run this command"
+   onlyPlayers: "&4[ItemBroadcast] Only players can run this command"
+   sent: "&a[ItemBroadcast] Items sent to %d players"
+   noItem: "&4[ItemBroadcast] Hold the item to be broadcasted in the main hand"
+   incorrectUsage: "&4[ItemBroadcast] Type the command correctly, '/itembroadcast help' to show usage"
+   help:
+      - "&6&l============= ItemBroadcast Help =============\n"
+      - ""
+      - "&b/itembroadcast quantity"
+      - "&b/itembroadcast quantity -p [permission]"
+      - ""
+      - "&b-p [permission] -> send items only to players that have itembroadcast.permission"
+      - ""
+      - "&6&l============================================"

@@ -7,6 +7,7 @@ public class ItemBroadcast extends JavaPlugin {
 	
 	@Override
 	public void onEnable() {
+		this.saveDefaultConfig();
 		this.getCommand("itembroadcast").setExecutor(new ItemBroadcastCommand(this));
 		permissionManager.setupPermissions();
 	}
