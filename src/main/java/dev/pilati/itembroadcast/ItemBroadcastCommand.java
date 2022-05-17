@@ -25,7 +25,7 @@ public class ItemBroadcastCommand implements CommandExecutor{
 		String permission = null;
 		
 		if(!plugin.permissionManager.hasPermission(sender, "itembroadcast.send")) {
-			sender.sendMessage(this.getConfig("messages.noPermission").replace("{permission}", "[ib.send]"));
+			sender.sendMessage(this.getConfig("messages.noPermission").replace("{permission}", "[itembroadcast.send]"));
 			return true;
 		}
 		
